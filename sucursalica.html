@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="shortcut icon" href="img/iconopestaña.png" type="image/x-icon">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <title>CAFETERIA MAMALÚ ☕</title>
+  </head>
+  <body>
+    <div>
+      <header id="encabezado">
+        <img
+          src="img/logo oficial.png"
+          alt="Logo de la empresa"
+          width="450px"
+        />
+      </header>
+    </div>
+    <header class="desplegar">
+      <input type="checkbox" id="btn-menu">
+      <label for="btn-menu" class="icon icon-color ion-navicon-round"></label>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html" class="nav-link">INICIO</a>
+          </li>
+          <li class="submenu">
+            <a href="#" class="nav-link">PRODUCTOS<i class="icon icon-color ion-chevron-down"></i></a>
+            <ul class="subsubmenu-productos">
+              <li><a href="bebidas.html" class="sub-link">Bebidas</a></li>
+              <li><a href="alimentos.html" class="sub-link">Alimentos</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a href="#" class="nav-link">SUCURSALES<i class="icon icon-color ion-chevron-down"></i></a>
+            <ul class="subsubmenu-sucur">
+              <li><a href="sucursalica.html" class="sub-link">Ica</a></li>
+              <li><a href="sucursalchincha.html" class="sub-link">Chincha</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="nosotros.html" class="nav-link">NOSOTROS</a>
+          </li>
+        </ul>
+      </nav>  
+    </header>
+    <script src="desplegable.js"></script>
+
+    <h2 id="t2">SUCURSALES</h2>
+    <div class="pagSucursales">
+      <div class="divisionclase1">
+        <section class="sections1">
+          <a href="https://goo.gl/maps/1pgDRi2xtB2dL6vd6" target="_blank"
+            ><img src="img/local 3.png" alt="3" />
+          </a>
+          <br />
+          <br />
+          <i class="ion-ios-location"></i
+          ><strong>Av. Ayabaca 456</strong>
+        </section>
+        <section class="sections2">
+          <a href="https://goo.gl/maps/ganDCrVcfv8JEjpj7" target="_blank"
+            ><img src="img/local 4.png" alt="4" />
+          </a>
+          <br />
+          <br />
+          <i class="ion-ios-location"></i
+          ><strong>Av. San Martín 845</strong>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="icon icon-color ion-social-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="icon icon-color ion-social-instagram"></i
+        ></a>
+        <a href="https://wa.me/937022985" target="_blank"
+          ><i class="icon icon-color ion-social-whatsapp"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="icon icon-color ion-social-youtube"></i
+        ></a>
+      </div>
+      <br>
+      <p class="copyright"><i> GRUPO 1 © | todos los derechos reservados | 2022</i></p>
+    </footer>
+  </body>
+</html>
